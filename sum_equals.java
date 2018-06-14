@@ -7,14 +7,13 @@ class Point {
 
         for (int i = 0; i < numbers.length; i++) {
             for (int j = 0; j < numbers.length; j++) {
-                if (numbers[i] + numbers[j] == 9 ) {
-                    //System.out.println(numbers[i] + numbers[j] );
-                    System.out.print(true);
+                if (numbers[i] + numbers[j] == S ) {
+
                     return true;
                 }
             }
         }
-        System.out.print(false);
+
     return false;
     }
 
